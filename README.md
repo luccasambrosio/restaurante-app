@@ -19,7 +19,7 @@ Aplicação fullstack para gerenciamento de restaurante utilizando **Java Spring
 git clone https://github.com/luccasambrosio/restaurante-app.git
 cd restaurante-app
 cp .env.example .env  # (editar o .env se necessário)
-docker-compose up --build
+docker-compose -f docker-compose.prod.yml up -d --build
 ```
 ---
 
