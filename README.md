@@ -13,13 +13,13 @@ Aplicação fullstack para gerenciamento de restaurante utilizando **Java Spring
 - restauranteAPI Private (backend)
 - Restaurante (aplicação monolítica versão antiga)
 
-## Passos para rodar a aplicação com Docker Compose:
+## Bash rodar a aplicação com Docker Compose:
 
-``
+```
 git clone https://github.com/luccasambrosio/restaurante-app.git
 cd restaurante-app
 cp .env.example .env  # (editar o .env se necessário)
 docker-compose up --build
-``
+```
 ---
 
